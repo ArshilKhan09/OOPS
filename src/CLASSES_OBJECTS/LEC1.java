@@ -2,15 +2,25 @@ package CLASSES_OBJECTS;
 
 public class LEC1 {
     public static void main(String[] args) { //public class sirf 1 hi rahegi 1 file main
+
+        // Created Car Object for accessing Car property and behaviour
         Car c1 = new Car();
         c1.company = "Audi";
         c1.model = "v8";
         c1.price = 1500000;
 
-
         c1.start();
         c1.running();
         c1.stop();
+        System.out.println();
+        Car c2 = new Car();
+        c2.company = "Mercedes";
+        c2.model = "G-Wagon";
+        c2.price = 10000000;
+
+        c2.start();
+        c2.running();
+        c2.stop();
     }
 }
 
