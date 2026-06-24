@@ -11,7 +11,7 @@ public class Str1 {
         String newName = new String("Arshil");
 
 
-        if(name == sameName){       // OP-> Same
+/*        if(name == sameName){       // OP-> Same
             System.out.println("Both are Same");
         }
         if(name == newName){        // OP-> Not Same
@@ -19,6 +19,11 @@ public class Str1 {
         }
         else{
             System.out.println("Both are not Same");
+        }
+ */
+
+        if(name.equals(newName)){
+            System.out.println("Same");
         }
     }
 }
