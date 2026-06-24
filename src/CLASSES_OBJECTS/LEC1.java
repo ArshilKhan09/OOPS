@@ -12,7 +12,7 @@ public class LEC1 {
         c1.start();
         c1.running();
         c1.stop();
-        System.out.println();
+        System.out.println(  );
         Car c2 = new Car();
         c2.company = "Mercedes";
         c2.model = "G-Wagon";
